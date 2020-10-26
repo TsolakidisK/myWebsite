@@ -1,0 +1,746 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Betriebsysteme - TsolakidisK</title>
+</head>
+
+<style>
+    .myCenter {
+        text-align: center;
+    }
+
+    .myMarginTop10 {
+        margin-top: 10px;
+    }
+
+    .myGreen {
+        color: green;
+    }
+
+    .alert-danger {
+        background-color: #BD5D38;
+    }
+
+    .myColorRed {
+        color: red;
+    }
+</style>
+
+<body>
+    <div class="container myCenter myMarginTop10">
+        <div class="alert alert-danger text-white">
+            <p>Willkommen auf der Betriebsysteme-Zusammenfassung von TK</p>
+            <p>Alles was sich hier befindet wurde von mir persönlich zusammengefasst und ist kein offizieles Dokument
+            </p>
+            <small>Mehr über mich <a target="_blank" href="https://www.tsolas.com">TSOLAKIDIS KONSTANTINOS</a></small>
+            <hr>
+            <small>Contact: inf2058@hs-worms.de</small>
+            <br>
+            <small>LAST EDIT: 26.06.20</small>
+        </div>
+        <div class="row KlausurSoSe19">
+            <div class="col">
+                <div class="btn btn-primary btn-block myMarginTop10" data-toggle="collapse"
+                    href="#collapseTsolasKlausurSS19" role="button" aria-expanded="false"
+                    aria-controls="collapseTsolasKlausur">
+                    <h5>Alt-Klausur-Fragen Sommersemester 2019</h5>
+                </div>
+                <div class="alert alert-warning collapse" id="collapseTsolasKlausurSS19">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">Fragen</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>Zwei Funktionen eines Bsys, die typischerweiße nicht in einem Mikrokern enthalten
+                                    sind</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>Begriffe erläutern: "Idle Zustand eines Prozesses", "Spooling", "Timesharing",
+                                    "Multitasking"</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">3</th>
+                                <td>Unterschiede Virtueller und Hardware Befhelzeiger</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">4</th>
+                                <td>Wie viele Befhelzeiger werden typischer Weiße von einem Bsys mit n Prozessen und m
+                                    Programme verwaltet?</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">5</th>
+                                <td>Was sagt das Speedup eines Prozesses aus?</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">6</th>
+                                <td>Der serielle Ateil eines Prozesses läge bei 0.2. Welchen speed up erreichen sie bei
+                                    einer Parallelesierung mit 1.000 CPUs? Weshalb wird dieser Wert nicht erreicht?</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">7</th>
+                                <td>Child - Parent Programmieraufgabe. MUSSS ICH NOCH HOCHLADEN</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">8</th>
+                                <td>Was verstehen Sie unter Copy-on-write?</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">9</th>
+                                <td>Erläutern Sie das konzept des virtuellen Speichers</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">10</th>
+                                <td>Was verstehen Sie unter Prepaging?</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">11</th>
+                                <td>Wozu dient der Working-set-Algorithmus?</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">12</th>
+                                <td>Unterschiede zwischen Preemptive und non-preeemptive Scheduling</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">13</th>
+                                <td>Was ist echtzeit Scheduling?</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">14</th>
+                                <td>Context switch vs Mode switch</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">15</th>
+                                <td>Welche sind die Vorteile des Lottery-Scheduling Algorithmus?</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">16</th>
+                                <td>Wie funktioniert der Multi level-Feedback-Queue Algorithmus?</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">17</th>
+                                <td>IPC: Was verstehen Sie unter Barriere? Was ist Mutex? Ist es automatisch ein
+                                    semaphor?
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">18</th>
+                                <td>
+                                    <p>Der Syscall kill ermöglicht es einen Prozess mit SIGKILL zu beenden <span
+                                            class="myGreen">(TRUE)</span></p>
+                                    <p>Beim Runterfahren erhalten die noch laufende Prozesse erst das Signal SIGTERM und
+                                        dann SIGKILL <span class="myGreen">(TRUE)</span></p>
+                                    <p>kill (-3,SIGHUB) sendet das signal SIGHUB und die Prozessgruppe <span
+                                            class="myGreen">(TRUE)</span></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">19</th>
+                                <td>Was versteht man unter Race Conditions unter dem Kürzel "TOCTTOU" ?</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">20</th>
+                                <td>
+                                    <p>Unter welchen Bediengungen kann ein Prozess einen Rückgabewert an den laufenden
+                                        Prozess liefern?</p>
+                                    <p>Welcher kann vom Programmierer kontrolliert werden?</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">21</th>
+                                <td>Grenzen sie eine Swachstelle von eine Verwundbarkeit ab</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">22</th>
+                                <td>Wie kann eine Verwundbarkeit zu einer Bedrohung werden?</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">23</th>
+                                <td>Definieren sie einen verdeckten Kanal im Kontext Multi-Level-Security</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">24</th>
+                                <td>Nennen Sie ein Einsatzscenario für einen verdeckten Kanal (Wozu wird er benötigt?)
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">25</th>
+                                <td>Was ist Salt? Wozu dient es zu einer Hashfunktion von speichern von Passwörtern?
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">26</th>
+                                <td>Eine Datei wird in einem Verzeichniss angelegt. Welche Verwaltungsvorgänge muss das
+                                    Dateisystem dazu durchführen?</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">25</th>
+                                <td>Welchen Nutzen bietet der FHS?</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="row KlausurSoSe19">
+            <div class="col">
+                <div class="btn btn-primary btn-block myMarginTop10" data-toggle="collapse"
+                    href="#collapseTsolasKlausurWS19" role="button" aria-expanded="false"
+                    aria-controls="collapseTsolasKlausur">
+                    <h5>Alt-Klausur-Fragen Wintersemester 2019</h5>
+                </div>
+                <div class="alert alert-warning collapse" id="collapseTsolasKlausurWS19">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">Fragen</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>Nennen Sie zwei Funktionen eines Betriebssystemkerns, die typischerweise nicht in
+                                    einem Mikrokern
+                                    enthalten sind.</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>Erläutere prägnant: <li>Blockierter Zustand eines Prozesses</li>
+                                    <li>Task</li>
+                                    <li>Multiprogramming</li>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">3</th>
+                                <td>Unterschied virtueller und Hardware-Befehlszeiger</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">4</th>
+                                <td>Wie viele virtuelle Befehlszeiger gibt es?</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">5</th>
+                                <td>Was sagt der Speedup aus?</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">6</th>
+                                <td>Zwei Gründe, dass Threads einen eigenen Stack benötigen</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">7</th>
+                                <td><code>int main() {
+                                    if (fork())
+                                    {
+                                        fork();
+                                        return 4;
+                                    } else {
+                                        fork();
+                                        fork();
+                                        return 9;
+                                    }
+                                    return 0;
+                                }</code>
+                                    <hr>
+                                    Bitte den code selbst formatieren, weil formatierter code in responsivem HTML
+                                    schlecht angezeigt wird
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">8</th>
+                                <td>Richtig Falsch: <li>Copy-on-Write überschreibt beim Kopieren immer den Speicher
+                                        <b>(F)</b>
+                                    </li>
+                                    <li>Bei Prepaging werden Seiten, die einen Prozess häufig verwenden, vorgeladen
+                                        <b>(R)</b>
+                                    </li>
+                                    <li>Block-Allokation = Dateien füllen unvollständig genutzte Blöcke <b>(R)</b></li>
+                                    <li>Dateisystem mit 4-KByte große Blöcke, 4,1-KByte Datei verbraucht 8KB Speicher
+                                        <b>(R)</b></li>
+                                    <li>Nachteil großer Blöcke = höhere Verschwendung von Speicherplatz <b>(R)</b></li>
+                                    <li>VFS sorgt für einheitlichen Standard, hierarchische Organisation Dateisystemen
+                                        <b>(F)</b></li>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">9</th>
+                                <td>Ergänze Sätze zu Memory Management Unit
+                                    <li>Die Aufgabe einer MMU besteht darin, dass ____________________________________.
+                                    </li>
+                                    <li>Dazu verwendet eine MMU eine ____________________________________.</li>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">10</th>
+                                <td>Erkläre: ein nicht binärer Semaphor</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">11</th>
+                                <td>Erkläre: Grundsituation „Sleeping Barber Problem“. Das heißt, die Funktionsweise des
+                                    Friseurs und
+                                    Kunden. Wie kann es dabei zu einem Deadlock kommen?
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">12</th>
+                                <td>Schreiben Sie C-Code, der die Dateinamen aus dem Arbeitsverzeichnis ausliest und auf
+                                    dem
+                                    Bildschirm ausgibt.</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">13</th>
+                                <td><code>Security wurde für das SS2020 gestrichen</code></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">14</th>
+                                <td>Fragekatalog <li>Et.al bedeutet „und andere (Autoren)“ <b>(R)</b></li>
+                                    <li>ACM Computing Surveys ist ein „Journal“ <b>(R)</b></li>
+                                    <li>Beim Prozess gibt es einen direkten Übergang von blockiert zu rechnend
+                                        <b>(F)</b></li>
+                                    <li>SJF ist ein Schedulingsalgorithmus <b>(R)</b></li>
+                                    <li>BSYS mit Mikrokern erzeugen weniger Overhead (nur essenzielle Funktionen im
+                                        Kern) <b>(F)</b></li>
+                                    <li>EDF = Scheduling interaktiver Systeme <b>(F)</b></li>
+                                    <li>Konzept des Adressraums kann mit Limit- und Basisregistern umgesetzt werden
+                                        <b>(R)</b></li>
+                                    <li>Thread gehört einem/mehreren Prozessen an. Ermöglicht parallele Ausführung
+                                        Teilaufgaben <b>(F)</b></li>
+                                    <li>Speed-up steigt linear mit der Anzahl an Prozessoren an <b>(F)</b></li>
+                                    <li>Mainframe-Betriebssystemen wurden Jobs verarbeitet, die oftmals mit FORTRAIN
+                                        implementiert wurden <b>(R)</b></li>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="row Kapitel_1">
+            <div class="col">
+                <div class="btn btn-primary btn-block myMarginTop10" data-toggle="collapse" href="#collapseTsolas1"
+                    role="button" aria-expanded="false" aria-controls="collapseTsolas1">
+                    <h5>1 - Einführung und Grundlagen</h5>
+                </div>
+                <div class="alert alert-warning collapse" id="collapseTsolas1">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">Themen</th>
+                                <th scope="col">Seiten</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>Was ist ein Betriebsystem</td>
+                                <th>10</th>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>4 Bereiche eines Betriebsystems</td>
+                                <th>12-13</th>
+                            </tr>
+                            <tr>
+                                <th scope="row">3</th>
+                                <td>Aufbau eines Betriebsystems</td>
+                                <th>14-16</th>
+                            </tr>
+                            <tr>
+                                <th scope="row">4</th>
+                                <td>Kernelspace + Userspace</td>
+                                <th>17</th>
+                            </tr>
+                            <tr>
+                                <th scope="row">5</th>
+                                <td>Monolitische + Mikro + Hybride Kernel</td>
+                                <th>18-23</th>
+                            </tr>
+                            <tr>
+                                <th scope="row">6</th>
+                                <td>Geschichte der Betriebsysteme (Stapelverarbeitung, Multiprogramming, Spooling,
+                                    Timesharing)</td>
+                                <th>28-51</th>
+                            </tr>
+                            <tr>
+                                <th scope="row">7</th>
+                                <td>Geschichte von Linux und Unix</td>
+                                <th>55-63</th>
+                            </tr>
+                            <tr>
+                                <th scope="row">8</th>
+                                <td>Arten von Betriebsysteme</td>
+                                <th>69-84</th>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="row Kapitel_2">
+            <div class="col">
+                <div class="btn btn-primary btn-block myMarginTop10" data-toggle="collapse" href="#collapseTsolas2"
+                    role="button" aria-expanded="false" aria-controls="collapseTsolas2">
+                    <h5>2 - Prozesse und Threads</h5>
+                </div>
+                <div class="alert alert-warning collapse" id="collapseTsolas2">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">Themen</th>
+                                <th scope="col">Seiten</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>Multitasking</td>
+                                <th>87</th>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>Was ist ein Prozess + Quasiparallelität</td>
+                                <th>88-89</th>
+                            </tr>
+                            <tr>
+                                <th scope="row">3</th>
+                                <td>Befhelzeiger und virtueller Befhelzeiger</td>
+                                <th>90-95</th>
+                            </tr>
+                            <tr>
+                                <th scope="row">4</th>
+                                <td>CPU Auslastung und Speed up</td>
+                                <th>96-101</th>
+                            </tr>
+                            <tr>
+                                <th scope="row">5</th>
+                                <td>Unterschiede von Prozessen</td>
+                                <th>102-105</th>
+                            </tr>
+                            <tr>
+                                <th scope="row">6</th>
+                                <td>Prozesserzeugung, Prozesshierarchie, Prozessbediengungen, Prozesszustände</td>
+                                <th>106-124</th>
+                            </tr>
+                            <tr>
+                                <th scope="row">7</th>
+                                <td>Der Stack</td>
+                                <th>125-131</th>
+                            </tr>
+                            <tr>
+                                <th scope="row">8</th>
+                                <td>Was sind Threads</td>
+                                <th>132-142</th>
+                            </tr>
+                            <tr>
+                                <th scope="row">9</th>
+                                <td>Multithreading + Programmieren mit Threads</td>
+                                <th>143-153</th>
+                            </tr>
+                            <tr>
+                                <th scope="row">10</th>
+                                <td>Thread Architektur</td>
+                                <th>154-155</th>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="row Kapitel_3">
+            <div class="col">
+                <div class="btn btn-primary btn-block myMarginTop10" data-toggle="collapse" href="#collapseTsolas3"
+                    role="button" aria-expanded="false" aria-controls="collapseTsolas3">
+                    <h5>3 - IPC und Race Conditions</h5>
+                </div>
+                <div class="alert alert-warning collapse" id="collapseTsolas3">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">Themen</th>
+                                <th scope="col">Seiten</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>Interprozesskommunikation + Techniken</td>
+                                <th>160-162</th>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>Pipes und FIFOs</td>
+                                <th>163-166</th>
+                            </tr>
+                            <tr>
+                                <th scope="row">3</th>
+                                <td>Shared Memory</td>
+                                <th>167-169</th>
+                            </tr>
+                            <tr>
+                                <th scope="row">4</th>
+                                <td>Message Queues</td>
+                                <th>170-171</th>
+                            </tr>
+                            <tr>
+                                <th scope="row">5</th>
+                                <td>Unix-Domain-Sockets</td>
+                                <th>171-173</th>
+                            </tr>
+                            <tr>
+                                <th scope="row">6</th>
+                                <td>Signale</td>
+                                <th>173-183</th>
+                            </tr>
+                            <tr>
+                                <th scope="row">7</th>
+                                <td>Race Condition, was kann passieren?</td>
+                                <th>186-194</th>
+                            </tr>
+                            <tr>
+                                <th scope="row">8</th>
+                                <td>Lösung: File Locks</td>
+                                <th>195-199</th>
+                            </tr>
+                            <tr>
+                                <th scope="row">9</th>
+                                <td>Lösung: Temporäre Dateien</td>
+                                <th>200-202</th>
+                            </tr>
+                            <tr>
+                                <th scope="row">10</th>
+                                <td>Wichtige Anmerkungen + <span class="myColorRed">OpenSSH Bug</span></td>
+                                <th>203-205</th>
+                            </tr>
+                            <tr>
+                                <th scope="row">11</th>
+                                <td>Semaphoren + <span class="myColorRed">EVP</span></td>
+                                <th>206-214</th>
+                            </tr>
+                            <tr>
+                                <th scope="row">12</th>
+                                <td><span class="myColorRed">EVP</span> + Deadlocks</td>
+                                <th>215-218</th>
+                            </tr>
+                            <tr>
+                                <th scope="row">13</th>
+                                <td><span class="myColorRed">Semaphore / Philosophenproblem</span></td>
+                                <th>219-235</th>
+                            </tr>
+                            <tr>
+                                <th scope="row">14</th>
+                                <td>Monitore</td>
+                                <th>236-244</th>
+                            </tr>
+                            <tr>
+                                <th scope="row">15</th>
+                                <td>Barrieren</td>
+                                <th>245-246</th>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="row Kapitel_4">
+            <div class="col">
+                <div class="btn btn-primary btn-block myMarginTop10" data-toggle="collapse" href="#collapseTsolas4"
+                    role="button" aria-expanded="false" aria-controls="collapseTsolas4">
+                    <h5>4 - Scheduling + Algos</h5>
+                </div>
+                <div class="alert alert-warning collapse" id="collapseTsolas4">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">Themen</th>
+                                <th scope="col">Seiten</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>Scheduling</td>
+                                <th>249-250</th>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>Warum ist Scheduling nicht trivial?</td>
+                                <th>251-257</th>
+                            </tr>
+                            <tr>
+                                <th scope="row">3</th>
+                                <td>Triviales Scheduling</td>
+                                <th>258-260</th>
+                            </tr>
+                            <tr>
+                                <th scope="row">4</th>
+                                <td>Scheduling: Optimierungsproblem</td>
+                                <th>261-263</th>
+                            </tr>
+                            <tr>
+                                <th scope="row">5</th>
+                                <td>Scheduling: Context Switching + Prozessverhalten</td>
+                                <th>264-266</th>
+                            </tr>
+                            <tr>
+                                <th scope="row">6</th>
+                                <td>Wann sollte Scheduling erfolgen? </td>
+                                <th>267</th>
+                            </tr>
+                            <tr>
+                                <th scope="row">7</th>
+                                <td>Non-Preemptive Multitasking + Preemptive Multitasking</td>
+                                <th>268-270</th>
+                            </tr>
+                            <tr>
+                                <th scope="row">8</th>
+                                <td>Ziele von Schedulingstrategien</td>
+                                <th>271-274</th>
+                            </tr>
+                            <tr>
+                                <th scope="row">9</th>
+                                <td>Schedulingalgorithmen (Es sind viele! Alle lernen)</td>
+                                <th>275-294</th>
+                            </tr>
+                            <tr>
+                                <th scope="row">10</th>
+                                <td><span class="myColorRed">Scheduling für Threads + weitere Anmerkungen</span></td>
+                                <th>295-296</th>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="row Kapitel_5">
+            <div class="col">
+                <div class="btn btn-primary btn-block myMarginTop10" data-toggle="collapse" href="#collapseTsolas5"
+                    role="button" aria-expanded="false" aria-controls="collapseTsolas5">
+                    <h5>5 - Speicherverwaltung</h5>
+                </div>
+                <div class="alert alert-warning collapse" id="collapseTsolas5">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">Themen</th>
+                                <th scope="col">Seiten</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>Speicherverwaltung - Einführung - Theorie</td>
+                                <th>299-305</th>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>Speicherhierarche - Aufteilung des physikalischen Speichers</td>
+                                <th>306-312</th>
+                            </tr>
+                            <tr>
+                                <th scope="row">3</th>
+                                <td>Speicherabstraktion + Fits</td>
+                                <th>313-330</th>
+                            </tr>
+                            <tr>
+                                <th scope="row">4</th>
+                                <td>Page Replacement + Strategien</td>
+                                <th>332-339</th>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="row Kapitel_6">
+            <div class="col">
+                <div class="btn btn-primary btn-block myMarginTop10" data-toggle="collapse" href="#collapseTsolas6"
+                    role="button" aria-expanded="false" aria-controls="collapseTsolas6">
+                    <h5>6 - Dateisysteme</h5>
+                </div>
+                <div class="alert alert-warning collapse" id="collapseTsolas6">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">Themen</th>
+                                <th scope="col">Seiten</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>Dateisysteme Einführung + Anforderungen</td>
+                                <th>342-349</th>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>Dateinamen + Dateitypen</td>
+                                <th>352-353</th>
+                            </tr>
+                            <tr>
+                                <th scope="row">3</th>
+                                <td>Grundlegende Operationen auf Dateien + Verzeichnisse</td>
+                                <th>354-356</th>
+                            </tr>
+                            <tr>
+                                <th scope="row">4</th>
+                                <td>Dateisystemlayouts</td>
+                                <th>358-364</th>
+                            </tr>
+                            <tr>
+                                <th scope="row">5</th>
+                                <td>Inodes</td>
+                                <th>365-370</th>
+                            </tr>
+                            <tr>
+                                <th scope="row">6</th>
+                                <td>Virtual Filesystems (VFS)</td>
+                                <th>371-372</th>
+                            </tr>
+                            <tr>
+                                <th scope="row">7</th>
+                                <td><span class="myColorRed">Journaling</span></td>
+                                <th>373-376</th>
+                            </tr>
+                            <tr>
+                                <th scope="row">8</th>
+                                <td><span class="myColorRed">User oder Kernelspace + Filesystem Hierarchy
+                                        Standard</span></td>
+                                <th>377-378</th>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="m-5">
+            <hr>
+        </div>
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+</html>
